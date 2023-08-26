@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(/phin2.gif);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#header{
+    text-align: center;
+    background-color: black;
+    /* margin-top: -20px; */
+}
+
+#header li{
+    display: inline-block;
+}
+
+#header li a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+#search{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.textbox input[type="text"]{
+    height: 50px;
+    width: 960px;
+    width: 960px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.searchbtn{
+  height: 45px;  
+  width: 45px;
+  border-radius: 30px;
+  margin-left: 15px;
+  position: relative;
+  right: 42px;
+  background-color: black;
+  cursor: pointer;
+  animation: 0.5s;
+}
+.searchbtn:active {
+    transform:translateY(-10px);
+}
+.searchbtn:hover{
+    background-color:  wheat;
+}
+
+.cart{
+    font-size: 40px;
+    margin-right: 50px;
+    padding-top: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.cart:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.signin{
+    margin-top: 5px;
+    width: 120px;
+    height: 37px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+}
+.Acc{
+    text-decoration: none;
+    color: white;
+}
+
+#category{
+    text-align: center;
+    background-color: white;
+    width: 950px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* padding-left: 25px; */
+    background-image: url(/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#category li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+#category li a{
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+}
+
+.cat2{
+    padding: 0;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53vh;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: -50px;
+    background-size: cover;
+    background-position: center;
+}
+.videoapple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+    /* background-color: #027ed0; */
+    /* width: 650px;
+    height: 490px; */
+}
+
+
+.smallbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.smallbanner li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.smallbanner li a{
+    width: 100%;
+    height: 100%;
+}
+
+.smallbanner li img{
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.button li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button li button{
+    text-decoration: none;
+    padding: 10px;
+    /* height: 100%;
+    align-items: center; */
+    display: block;
+    margin-right: 5px;
+    background: linear-gradient(to right, #027ed0, #077077);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.button li button:hover{
+    background: linear-gradient(to right, #1ed479, #077077);
+}
+
+.list li:hover{
+    background-color: orange;
+}
+
+
+
+#category li:hover{
+    /* text-decoration: underline; */   
+    background: linear-gradient(to right, #027ed0, #077077);
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.signin:hover{
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1100px;
+    border-radius: 10px;
+    height: 270px;
+}
+
+.item1{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    margin: 2px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+
+.sticker1{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+}
+
+.item2{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+
+.name a{
+    text-decoration: none;
+}
+
+.item3{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+
+
+.item4{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+.sticker2{
+    position: absolute;
+    display: flex ;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+}
+
+.saleproduct{
+    width: 125px;
+    height: 25px;
+    background: linear-gradient(to right, #0397fa, #ffffff);
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: large;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+.buynowbtn{
+    padding-top: 10px;
+}
+.buynowbtn button{
+    padding: 1px 5px 1px 5px; /*Trên, phải, dưới, trái */
+    background: linear-gradient(to right, #00fff7, #e9eeef);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buynowbtn button:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.item1:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.item2:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.item3:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.item4:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.laptopContainer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1100px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.laptop1{
+    height: 258px;
+    width: 239px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.namelaptop1 a{
+    text-decoration: none;
+}
+
+.namelaptop1{
+    text-align: center;
+}
+
+.laptop1:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.laptopbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.laptopbanner img{
+    border-radius: 10px;
+}

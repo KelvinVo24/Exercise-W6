@@ -436,3 +436,7 @@ body{
 .laptopbanner img{
     border-radius: 10px;
 }
+.name{
+    text-align: center;
+}
+

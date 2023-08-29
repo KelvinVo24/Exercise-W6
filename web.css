@@ -46,6 +46,10 @@ body{
     position: absolute;
 }
 
+.nav li:hover{
+    background-color: orange;
+}
+
 #header li a{
     color: white;
     text-decoration: none;

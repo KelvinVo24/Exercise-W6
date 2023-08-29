@@ -243,11 +243,6 @@ body{
     background: linear-gradient(to right, #1ed479, #077077);
 }
 
-.list li:hover{
-    background-color: orange;
-}
-
-
 
 #category li:hover{
     /* text-decoration: underline; */   

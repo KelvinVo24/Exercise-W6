@@ -18,6 +18,32 @@ body{
 
 #header li{
     display: inline-block;
+    position: relative;
+}
+.list_child{
+    z-index: 2;
+    display: none;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 125px;
+    color: white;
+}
+
+.list_child li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+
+.nav li:hover .list_child {
+    display:block;
+    cursor: pointer;
+}
+
+.nav .list_child{
+    position: absolute;
 }
 
 #header li a{

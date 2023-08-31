@@ -288,9 +288,9 @@ body{
 .sticker1{
     position: absolute;
     display: flex;
-    padding: 5px;
-    top: 0px;
-    right: 0px;
+    padding: 0px;
+    top: -30px;
+    right: -20px;
 }
 
 .item2{
@@ -354,9 +354,9 @@ body{
 .sticker2{
     position: absolute;
     display: flex ;
-    padding: 5px;
-    top: 0px;
-    right: 0px;
+    padding: 0px;
+    top: -30px;
+    right: -20px;
 }
 
 .saleproduct{

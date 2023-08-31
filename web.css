@@ -313,6 +313,11 @@ body{
 
 .name a{
     text-decoration: none;
+    color: black;
+}
+
+.name a:hover{
+    color: blue;
 }
 
 .item3{
@@ -444,6 +449,12 @@ body{
 
 .namelaptop1 a{
     text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.namelaptop1 a:hover{
+    color: blue;
 }
 
 .namelaptop1{
